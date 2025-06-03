@@ -1,0 +1,11 @@
+import React from 'react'
+
+function CompanionSession() {
+  return (
+    <div>
+      Companion Session
+    </div>
+  )
+}
+
+export default CompanionSession
