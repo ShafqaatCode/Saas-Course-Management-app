@@ -17,7 +17,7 @@ const navItems = [
 const Navitems = () => {
     const pathname = usePathname();
     return (
-       <nav className="flex items-center gap-4 border">
+       <nav className="flex items-center gap-4">
         {
             navItems.map( ({ name, path }) => (
             <Link 
